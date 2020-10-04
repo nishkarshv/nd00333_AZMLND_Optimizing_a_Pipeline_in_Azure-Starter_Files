@@ -7,8 +7,13 @@ This model is then compared to an Azure AutoML run.
 
 ## Summary
 **In 1-2 sentences, explain the problem statement: e.g "This dataset contains data about... we seek to predict..."**
+The problem statement is about the "Bank Marketing Campaign" to classify whether the customer with opt for Term Deposit or not.
+This is the standard classification problem, where the machine learning model will help in accurate prediction of clients subscribing for Term deposits.
+The dataset used is the Bank Marketing Dataset.
 
 **In 1-2 sentences, explain the solution: e.g. "The best performing model was a ..."**
+The problem supposed to use two difference approaches. One of the appraoch is  the Microsoft azure hyperdrive which gave an accuracy of 91.67%. The second approach was the Microsoft AutoML which gave an accuracy of 91.74%. 
+The best performing model was a Voting ensemble model which was produced by the AutoML.
 
 ## Scikit-learn Pipeline
 **Explain the pipeline architecture, including data, hyperparameter tuning, and classification algorithm.**
